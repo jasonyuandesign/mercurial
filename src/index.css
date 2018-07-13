@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'NB Akademie Std';
+  src:
+      url('../src/webfont/NBAkademieStd-Medium.woff2') format('woff2'),
+      url('../src/webfont/NBAkademieStd-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NB Akademie Std';
+  src: 
+      url('../src/webfont/NBAkademieStd.woff2') format('woff2'),
+      url('../src/webfont/NBAkademieStd.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NB Akademie Std';
+  src: 
+      url('../src/webfont/NBAkademieStd-Bold.woff2') format('woff2'),
+      url('../src/webfont/NBAkademieStd-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: NB Akademie Std, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #242526;
+  cursor: default;
+  
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+
+
+.dontTouch {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+ pointer-events: none;
+
+                                }

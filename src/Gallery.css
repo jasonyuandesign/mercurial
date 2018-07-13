@@ -1,0 +1,48 @@
+.galleryCard {
+    background-color: #000;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.25);
+    cursor: pointer !important;
+width: 100%;
+height: auto;
+-webkit-transition: all 600ms cubic-bezier(0.175, 1.2, 0.32, 1.275);
+transition:         all 600ms cubic-bezier(0.175, 1.2, 0.32, 1.275);
+}
+
+.galleryCard:hover {
+    transform: scale(1.005);
+    box-shadow: 0px 30px 60px rgba(0,0,0,0.25);
+
+}
+
+.galleryCard:active {
+    transform: scale(0.995);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.4);
+
+}
+
+.galleryContainer {
+    margin: 1vw;
+    padding-top: 500px;
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: all 750ms cubic-bezier(0.175, 1.2, 0.32, 1.275);
+    transition:         all 750ms cubic-bezier(0.175, 1.2, 0.32, 1.275);
+    /* position: absolute; */
+    
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.bodyBlack {
+    background-color: #000000;
+    -webkit-transition: all 750ms cubic-bezier(0.175, 1.2, 0.32, 1.275);
+    transition:         all 750ms cubic-bezier(0.175, 1.2, 0.32, 1.275);
+}

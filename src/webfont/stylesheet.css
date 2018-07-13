@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'NB Akademie Std';
+    src: local('NB Akademie Std Medium'), local('NBAkademieStd-Medium'),
+        url('NBAkademieStd-Medium.woff2') format('woff2'),
+        url('NBAkademieStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NB Akademie Std';
+    src: local('NB Akademie Std'), local('NBAkademieStd'),
+        url('NBAkademieStd.woff2') format('woff2'),
+        url('NBAkademieStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NB Akademie Std';
+    src: local('NB Akademie Std Bold'), local('NBAkademieStd-Bold'),
+        url('NBAkademieStd-Bold.woff2') format('woff2'),
+        url('NBAkademieStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
